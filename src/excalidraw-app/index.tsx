@@ -750,7 +750,6 @@ const ExcalidrawWrapper = () => {
             <EncryptedIcon />
           </div>
         </Footer>
-        {welcomeScreenJSX}
       </Excalidraw>
       {excalidrawAPI && <Collab excalidrawAPI={excalidrawAPI} />}
       {errorMessage && (
