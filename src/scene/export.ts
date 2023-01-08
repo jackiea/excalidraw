@@ -140,6 +140,12 @@ export const exportToSvg = async (
   ${metadata}
   <defs>
     <style class="style-fonts">
+
+      @font-face {
+        font-family: "Muyao";
+        src: url("${assetPath}Muyao-Softbrush.ttf");
+      }
+
       @font-face {
         font-family: "Virgil";
         src: url("${assetPath}Virgil.woff2");
